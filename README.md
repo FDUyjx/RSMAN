@@ -18,3 +18,8 @@ This is the implementation of the **RSMAN** (**R**elation-**S**pecific **M**enti
 
 ## Train
 Download pre-trained language models into the directory `./pretrained_lm` and run:
+```
+python run.py
+```
+The evaluation on dev set will be run during training at each logging step, and the trained model corresponding to the best dev result will be saved into the directory `./checkpoints`.
+
