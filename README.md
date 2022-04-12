@@ -6,8 +6,7 @@ This is the implementation of the **RSMAN** (**R**elation-**S**pecific **M**enti
 <img src="./RSMAN.png" width = "400" height = "350" align=center />
 </div>  
 
-
 ## Requirements
-* python == 3.6
+* python==3.6
 * pytorch==1.4.0
 * transformers==2.7.0
