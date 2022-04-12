@@ -10,3 +10,8 @@ This is the implementation of the **RSMAN** (**R**elation-**S**pecific **M**enti
 * python==3.6
 * pytorch==1.4.0
 * transformers==2.7.0
+
+## Dataset
+* [DocRED](https://github.com/thunlp/DocRED)
+* [DWIE](https://github.com/klimzaporojets/DWIE)
+* Note that you should process DWIE to fit the same format as DocRED. Put the dataset into the directory 'data/'.
