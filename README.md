@@ -17,4 +17,4 @@ This is the implementation of the **RSMAN** (**R**elation-**S**pecific **M**enti
 * Note that you should process DWIE to fit the same format as DocRED. Put the dataset into the directory `./data`.
 
 ## Train
-Download pre-trained language Models into the directory `./plm` and run:
+Download pre-trained language models into the directory `./pretrained_lm` and run:
