@@ -23,3 +23,9 @@ python run.py
 ```
 The evaluation on dev set will be run during training at each logging step, and the trained model corresponding to the best dev result will be saved into the directory `./checkpoints`.
 
+## Test
+To get the result on test set, run:
+```
+python run.py --do_train False --do_predict
+```
+Then a test result file in the official evaluation format will be saved as `./checkpoints/result.json`.
