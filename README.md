@@ -30,3 +30,4 @@ python run.py --do_train False --do_predict
 ```
 Then a test result file in the official evaluation format will be saved as `./checkpoints/result.json`.
 Compress and submit it to [CodaLab](https://competitions.codalab.org/competitions/20717) to get the final test score.
+We also provide our trained model and test result file, you can download from [here](https://drive.google.com/file/d/1deat9OO4F4tZh4KxhcZGK2Wme1Z8dCsC/view?usp=sharing).
